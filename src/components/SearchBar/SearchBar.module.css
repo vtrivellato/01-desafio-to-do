@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: 736px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -27px;
+}
+
+.content input {
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 1rem;
+    line-height: 3.375rem;
+    padding: 0 1rem;
+    min-width: 638px;
+}
+
+.content button {
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+
+    border: none;
+    border-radius: 8px;
+    
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    min-width: 5.625rem;
+    margin-left: 0.5rem;
+}
+
+.content button > span {
+    margin-left: calc(0.5rem - 2px);
+}
+
+.content button > span > img {
+    height: 0.875rem;
+}
