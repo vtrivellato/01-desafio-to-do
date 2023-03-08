@@ -35,18 +35,26 @@
 
     border: none;
     border-radius: 8px;
-    
-    font-size: 0.875rem;
-    font-weight: bold;
-    padding: 0 1rem;
+
     min-width: 5.625rem;
+    padding: 0 1rem;
     margin-left: 0.5rem;
 }
 
-.content button > span {
-    margin-left: calc(0.5rem - 2px);
+.content button div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 0.5rem;
+}
+
+.content button p {
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.25rem;
 }
 
 .content button > span > img {
-    height: 0.875rem;
+    height: 1.143rem;
 }
